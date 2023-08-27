@@ -1,0 +1,619 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 2% 2% 0 2%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    text-transform: uppercase;
+    line-height: 20px;
+    font-size: 14px;
+
+}
+.main-container{
+    min-height: 100vh;
+    width: 100%;
+}
+.img-container{
+    position: relative;
+    width:100% ;
+    height:85vh;
+    background-size: cover;
+    background-image: url("https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg");
+    background-attachment: fixed;
+} 
+.menu-container{
+    position: absolute;
+    left: 80px;
+    top: 40px;
+    width: 85%;
+    height: 10vh;
+    display: flex;
+    gap: 100px;
+    background-color: white;
+}
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: start;
+    width:200px ;
+    height: 13vh;
+    background-color: rgb(228,115,18);
+}
+.a{
+    text-decoration: none;
+    color: black;
+}
+.a:hover{
+    color: rgb(228,115,18); ;
+}
+.nav-container{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.menu-icon{
+    font-size: 40px;
+}
+.get-container{
+    width:200px ;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(228,115,18);
+    color: white;
+}
+.head-container{
+    position: absolute;
+    left: 80px;
+    top: 200px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    line-height: 70px;
+    color: white; 
+}
+.head{
+    font-size: 40px; 
+    font-weight: 100; 
+}
+.para{
+    font-size: 18px; 
+    text-transform: capitalize;
+}
+.btn{
+    width: 30%;
+    min-height: 8vh;
+    background-color: rgb(228,115,18); 
+    color: white;
+    border: none;
+}
+.icon-container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0px;
+    top: 25%;
+}
+.icon{
+    width: 50px;
+    color: white;
+    padding: 15px;
+    border-bottom: 1px solid rgb(128,128,128);
+    background-color:rgb(10,18,41);
+    font-size: 20px;
+}
+.third-container{
+    position: absolute;
+    right: 0px;
+    top: 85%;
+    width: 70%;
+    height: 25vh;
+    background-color: rgb(228,115,18);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    line-height: 35px;
+
+}
+.icons{
+    font-size: 30px;
+}
+.servieces{
+    width: 100%;
+    margin-top: 300px;
+}
+.specialization{
+    width:100% ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 0 0 50px;
+}
+.sub-spe{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 0 0 50px;
+
+}
+.para-spc{
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.images{
+    width: 70px;
+}
+.cards{
+    width:250px ;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.head-spc{
+    color: rgb(246,246,246);
+    font-size: 150px;
+    letter-spacing: 15px;
+}
+.para2-spc:hover,.meet-abt:hover{
+    width: max-content;
+  border-bottom: 2px solid rgb(228,115,18) ;
+  
+}
+.spc-a {
+    text-decoration: none;
+    font-weight: 100;
+    font-size: medium;
+    color: rgb(167,167,171);
+}
+.spc-a:hover{
+    color: rgb(228,115,18);
+}
+.sub-para{
+    color: rgb(167,167,171);
+    font-weight: 100;
+    font-size: small;
+}
+.about{
+ margin-top: 200px;
+
+}
+.about-container{
+    width: 100%;
+    display: flex;
+    gap: 70px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.abt-img, .abt-head{
+   flex-basis: 50%;
+}
+.abt-img img{
+    width: 100%;
+}
+
+.abt-head{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.about-heading{
+    color: rgb(246,246,246);
+    font-size: 100px;
+    letter-spacing: 15px;
+}
+.sec-abt{
+    font-size: 35px;
+    font-weight:100 ;
+    margin: 20px 0 0 40px ;
+}
+.abt-para{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    color: rgb(167,167,171);
+    font-weight: 100;
+    font-size: small;
+    margin: 0 0 0 40px ;
+}
+.sec-abt-container{
+  display: flex;
+  justify-content: space-around;
+  margin: 100px 0 0 0;
+
+}
+.sec-abt-container h1{
+    color: rgb(228,115,18) ;
+    font-size: 70px;
+    font-weight: 100;
+    margin-bottom: 60px;
+}
+.sec-abt-container p{
+    color: rgb(167,167,171);
+    font-weight: 100;
+    font-size: small;
+}
+.ash-container{
+    width: 100%;
+    height: max-content;
+    background-color:rgb(243, 243, 248); ;
+}
+/* projects */
+.project{
+    width: 100%; 
+    margin-top: 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.project h1{
+    color:  rgb(232, 232, 234);
+    font-size: 100px;
+    letter-spacing: 15px;
+    padding: 50px;
+}
+.pro-head{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.pro-head h2{
+    font-size: 40px;
+    font-weight: 100;
+}
+.pro-head p,.tm-head,.tm-text p{
+    color: rgb(167,167,171);
+}
+.pro-head p:hover,.tm-head p:hover{
+   width: max-content;
+   border-bottom: 2px solid rgb(228,115,18);
+   cursor: pointer;
+}
+.pro-img-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 30px;
+}
+.pro-img{
+    flex-basis: 32%;
+}
+.pro-img img{
+    width: 100%;
+}
+.pro-last-container{
+    width: 97%;
+    margin: -18px 30px 30px 30px;
+    height: 40vh;
+    color: white;
+    background-color: rgb(242, 69, 12);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pro-details{
+    text-align: center;
+    line-height: 40px;
+}
+.pro-details h2{
+    font-size: 40px;
+}
+.pro-details p{
+    margin-top: 40px;
+}
+/* team */
+.professional{
+  width: 100%;
+}
+.professional h1{
+    color:  rgb(232, 232, 234);
+    font-size: 100px;
+    letter-spacing: 15px;
+    padding: 50px;
+}
+.tm-container{
+    margin: 0px 100px 0px 100px;
+}
+.tm-head{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.tm-head h2{
+    font-size: 35px;
+}
+.team-img{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin-top: 150px;
+}
+.team-m-img{
+    width: 100%;
+    flex-basis: 25%;
+    position: relative;
+}
+.team-m-img img{
+    width: 100%;
+
+}
+.tm-text{
+    background-color: white;
+    padding: 20px;
+}
+.tm-icon{
+    position:absolute;
+    right: 0px;
+    bottom: 20px;
+}
+.tm-icon div {
+    
+    padding: 20px;
+    font-size: 15px;
+    border-bottom: 2px solid rgb(177, 167, 167);
+    color: white;
+    background-color: rgb(228,115,18);
+    z-index: 10;
+}
+.clients{
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    gap: 100px;
+    flex-basis: 50%;
+}
+.clnt-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.clnt-head h1{
+    color:  rgb(232, 232, 234);
+    font-size: 150px;
+    letter-spacing: 15px;
+}
+.clnt-headings{
+    margin: 50px;
+}
+.clnt-headings h2{
+    font-size: 40px;
+    font-weight: 100;
+}
+.clnt-headings p{
+    font-size: small;
+    font-weight: 100;
+    margin-top: 30px;
+    color: rgb(132, 132, 133);
+}
+.clnt-details{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+}
+.clnt-right,.clnt-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.clnt-right{
+    margin-top: 50px;
+}
+.quote{
+    width: 70px;
+    height: 70px;
+    padding:30px;
+    position: relative;
+    left: 150px;
+    top: 55px;
+    color: white;
+    border-radius: 50%;
+    background-color: rgb(228,115,18);  
+}
+.clnt-box{
+    width: 400px;
+    height: 250px;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clnt-box p{
+    color: rgb(132, 132, 133); color: rgb(132, 132, 133);
+    margin-top: 20px;
+}
+
+
+
+
+
+
+@media(max-width:400px){
+    body{
+        margin: 0%;
+    }
+   .logo-container{
+     height: 10vh;
+    }
+  .a{
+    display: none;
+  }
+  .get-container{
+    display: none;
+  }
+  .third-container{
+   display: none;
+  }
+ .menu-container{
+  left: 0px;
+  top: 0px;
+  width: 100%;
+ }
+ .icon-container{
+    top: 60%;
+ }
+ .head-container{
+    top: 150px;
+    line-height: 40px;
+ }
+ .specialization{
+  left: 0px;
+  font-size: 20px;
+ }
+ .sub-spe{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+ }
+ .header{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: small;
+ }
+ .head-spc,.para-spc{
+    font-size: 25px;
+ }
+ 
+}
+@media (max-width:770px){
+    body{
+        margin: 0%;
+    }
+    .logo-container{
+        height: 10vh;
+       }
+     .a{
+       display: none;
+     }
+     .get-container{
+       display: none;
+     }
+     .third-container{
+        width: 100%;
+        top: 95%;
+     }
+     .menu-container{
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+       }
+       .icon-container{
+          top: 50%;
+       }
+       .head-container{
+        top: 150px;
+          line-height: 40px;
+       }
+       .specialization{
+        font-size: 20px;
+       }
+       .sub-spe{
+          display: flex;
+          flex-direction: column;
+          gap: 100px;
+       }
+       .header{
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          font-size: small;
+       }
+       .head-spc,.para-spc,.sec-abt,.about-heading,.clnt-head h1,.pro-head h1{
+          font-size: 25px;
+       }
+       .about-container{
+        margin: 20px;
+        display:  flex;
+        flex-direction: column;
+     }
+     .abt-img img{
+        flex-basis: 90%;
+     }
+       
+     .sec-abt-container{
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+     }
+     .pro-head{
+        display: flex;
+        flex-direction: column;
+     }
+     .pro-img,.team-m-img{
+        flex-basis: 90%;
+    }
+    .pro-details{
+       text-align: left;
+       font-size: 10px;
+    }
+    .tm-head{
+        display: flex;
+        flex-direction: column;
+    }
+    .team-img{
+        display: flex;
+        flex-direction: column;
+    }
+    .clients,.clnt-details,.clnt-head{
+        display: block;
+        
+    }
+
+    .clnt-details,.clnt-head{
+        flex-basis: 100%;
+    }
+}
+@media(max-width:1000px){
+    body{
+        margin: 0%;
+    }
+    .logo-container{
+        height: 10vh;
+       }
+     .a{
+       display: none;
+     }
+     .get-container{
+       display: none;
+     }
+     .third-container{
+        width: 100%;
+        top: 95%;
+     }
+     .menu-container{
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+       }
+       .clients{
+        display: block;
+       }
+    .team-img,.clnt-details{
+        display: flex;
+    }
+}
+@media(min-width:1000px){
+    .menu-icon{
+        display: none;
+    }
+    .menu-container{
+        width: 85%;
+        justify-content: space-between;
+    }
+    .head{
+        font-size: 60px;
+    }
+
+}
